@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/registration" />
+
+    <TextView
+        android:id="@+id/dangki"
+        android:layout_width="166dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="197dp"
+        android:layout_marginTop="49dp"
+        android:text="ĐĂNG KÍ"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/hoten"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_name"
+        android:hint="Họ tên"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/sodienthoai"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_phone"
+        android:hint="Số điện thoại"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/mota"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_description"
+        android:hint="Mô tả" />
+
+    <EditText
+        android:id="@+id/gioitinh"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="340dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_gender"
+        android:hint="Giới tính" />
+
+    <EditText
+        android:id="@+id/diachi"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="280dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_address"
+        android:hint="Địa chỉ" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="220dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_mail"
+        android:hint="Email của bạn" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="160dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_password"
+        android:hint="Mật khẩu" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:drawableRight="@drawable/ic_password"
+        android:hint="Xác nhận mật khẩu" />
+
+    <Button
+        android:id="@+id/btnSingup"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:text="Đăng kí" />
+
+</RelativeLayout>
